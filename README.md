@@ -63,11 +63,17 @@ developing your own process.
 - Add a new toy when the toy form is submitted
 
   - How I debugged:
+  Used byebug to see that the params reache the server
+  Looked at the server log error for a wrong variable
+  corrected the misspelt Toy model name
 
 - Update the number of likes for a toy
-
   - How I debugged:
+  I logged the server response to the console after the update is over
+  Added the render function to the update ACTION
 
 - Donate a toy to Goodwill (and delete it from our database)
 
   - How I debugged:
+  Looked at the server log and noticed there was no path for the delete functionality
+  Also looked at the browser console that indicated a not found error.
